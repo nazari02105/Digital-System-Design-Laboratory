@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modelsim/old/installed/examples
+T_opt
+!s110 1653815567
+V[Y`UR^]^Vk1H_=>QJ9?gH3
+Z1 04 6 4 work alu_tb fast 0
+=1-086266b94fb7-6293390e-3d3-2354
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1653835066
+VF6DD^T[l0DneEnFS32O=03
+R1
+=1-086266b94fb7-62938538-3d2-1fa8
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+vALU
+Z4 !s110 1653815558
+!i10b 1
+!s100 GKkIn673];Hj@GNFW07Cz2
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=7giBU^ch@96V?i3GhW0^2
+Z6 dD:/Codes/Verilog Modelsim/DSD_Midterm
+w1653815551
+8D:/Codes/Verilog Modelsim/DSD_Midterm/alu.v
+FD:/Codes/Verilog Modelsim/DSD_Midterm/alu.v
+!i122 55
+L0 1 72
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1653815558.000000
+!s107 D:/Codes/Verilog Modelsim/DSD_Midterm/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/DSD_Midterm/alu.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+valu_tb
+R4
+!i10b 1
+!s100 7?_6`LI]]fFl?>inDcT6@1
+R5
+IGTORhAjQfG7L6gEjOo[YO0
+R6
+w1653809793
+8D:/Codes/Verilog Modelsim/DSD_Midterm/tb.v
+FD:/Codes/Verilog Modelsim/DSD_Midterm/tb.v
+!i122 56
+L0 1 173
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Codes/Verilog Modelsim/DSD_Midterm/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/DSD_Midterm/tb.v|
+!i113 0
+R10
+R2

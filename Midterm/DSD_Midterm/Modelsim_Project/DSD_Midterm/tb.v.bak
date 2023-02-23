@@ -1,0 +1,142 @@
+module alu_tb;
+	reg clock, reset, data_in;
+	wire data_out;
+	ALU main_alu(clock, reset, data_in, data_out);
+
+	initial
+		clock = 1'b0;
+	always
+		#5 clock = ~clock;
+
+	initial
+	begin
+		#5
+		reset = 1'b1;
+		#10
+		reset = 1'b0;
+		// ------------------------------test sum-----------------------------
+		// parity
+		data_in = 1'b1;
+		#10
+		// zero
+		data_in = 1'b0;
+		#10
+		// a
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b1;
+		#10
+		// b
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		// noise
+		data_in = 1'bx;
+		#10
+		// ------------------------------test mul-----------------------------
+		reset = 1'b1;
+		#10
+		reset = 1'b0;
+		// parity
+		data_in = 1'b1;
+		#10
+		// zero
+		data_in = 1'b1;
+		#10
+		// a
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		// b
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b0;
+		#10
+		// noise
+		data_in = 1'bx;
+		#10
+		// ------------------------------test sub-----------------------------
+		reset = 1'b1;
+		#10
+		reset = 1'b0;
+		// parity
+		data_in = 1'b0;
+		#10
+		// zero
+		data_in = 1'b1;
+		#10
+		// a
+		data_in = 1'b1;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		// b
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		// noise
+		data_in = 1'bx;
+		#10
+		// ------------------------------test div-----------------------------
+		reset = 1'b1;
+		#10
+		reset = 1'b0;
+		// parity
+		data_in = 1'b0;
+		#10
+		// zero
+		data_in = 1'b0;
+		#10
+		// a
+		data_in = 1'b1;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		// b
+		data_in = 1'b0;
+		#10
+		data_in = 1'b0;
+		#10
+		data_in = 1'b1;
+		#10
+		data_in = 1'b1;
+		#10
+		// noise
+		data_in = 1'bx;
+
+		// reset again one
+		#10
+		reset = 1'b1;
+	end
+endmodule

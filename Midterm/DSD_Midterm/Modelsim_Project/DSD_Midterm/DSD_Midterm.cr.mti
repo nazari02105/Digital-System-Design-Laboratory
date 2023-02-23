@@ -1,0 +1,15 @@
+{D:/Codes/Verilog Modelsim/DSD_Midterm/tb.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD_Midterm/tb.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} {D:/Codes/Verilog Modelsim/DSD_Midterm/alu.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD_Midterm/alu.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}
