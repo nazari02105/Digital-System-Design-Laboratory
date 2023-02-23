@@ -1,0 +1,15 @@
+{G:/University/Semester 4/DSD Lab/4/EXP4/Stack.v} {1 {vlog -work work -stats=none {G:/University/Semester 4/DSD Lab/4/EXP4/Stack.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stack
+
+Top level modules:
+	stack
+
+} {} {}} {G:/University/Semester 4/DSD Lab/4/EXP4/Stack_TB.v} {1 {vlog -work work -stats=none {G:/University/Semester 4/DSD Lab/4/EXP4/Stack_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Stack_TB
+
+Top level modules:
+	Stack_TB
+
+} {} {}}

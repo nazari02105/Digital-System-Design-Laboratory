@@ -1,0 +1,29 @@
+{D:/Codes/Verilog Modelsim/DSD5/data_path.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD5/data_path.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}} {D:/Codes/Verilog Modelsim/DSD5/test_bench.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD5/test_bench.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+
+} {} {}} {D:/Codes/Verilog Modelsim/DSD5/booth.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD5/booth.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module booth
+
+Top level modules:
+	booth
+
+} {} {}} {D:/Codes/Verilog Modelsim/DSD5/control_unit.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/DSD5/control_unit.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}}

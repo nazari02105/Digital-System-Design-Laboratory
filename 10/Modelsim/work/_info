@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/20.1
+vCPU
+Z0 !s110 1654196345
+!i10b 1
+!s100 =_o?S;@?3@j?D6m:>ooHm3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC<bQR<6zCc3]n`g]?8VEg3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/Az DSD/Experiments/10/Modelsim
+w1654196320
+8cpu.v
+Fcpu.v
+!i122 16
+L0 5 107
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1654196345.000000
+Z6 !s107 io.v|instruction_memory.v|data_memory.v|cpu.v|D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@c@p@u
+vCPU_Test
+R0
+!i10b 1
+!s100 hiH`ZfQb:FLQ?<1k>7WQd0
+R1
+I3d[f3>>RE2S]LP78_LHQY3
+R2
+R3
+w1654196321
+8D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v
+FD:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v
+!i122 16
+L0 2 41
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@p@u_@test
+vDataMemory
+R0
+!i10b 1
+!s100 XPKKnQFY<`kRgzF5VS]dU0
+R1
+IKA>BP2:_m^a1S:W1BVA1Y3
+R2
+R3
+w1654196307
+8D:/University/Az DSD/Experiments/10/Modelsim/data_memory.v
+FD:/University/Az DSD/Experiments/10/Modelsim/data_memory.v
+!i122 17
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/Az DSD/Experiments/10/Modelsim/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/Az DSD/Experiments/10/Modelsim/data_memory.v|
+!i113 1
+R8
+R9
+n@data@memory
+vInstructionMemory
+R0
+!i10b 1
+!s100 _4UJ<d7PeoZjZznFOGhYI1
+R1
+IBNGVolWk7;7^P<ZY=eziU2
+R2
+R3
+w1654196315
+8D:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v
+FD:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v
+!i122 18
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v|
+!i113 1
+R8
+R9
+n@instruction@memory
+vIO
+R0
+!i10b 1
+!s100 =ml7PECOO>mO5BZ2m``081
+R1
+IM>0amLhIB>[N5;CIN=Q;O2
+R2
+R3
+w1654196311
+8D:/University/Az DSD/Experiments/10/Modelsim/io.v
+FD:/University/Az DSD/Experiments/10/Modelsim/io.v
+!i122 19
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/University/Az DSD/Experiments/10/Modelsim/io.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/University/Az DSD/Experiments/10/Modelsim/io.v|
+!i113 1
+R8
+R9
+n@i@o

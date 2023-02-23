@@ -1,0 +1,120 @@
+// Copyright (C) 2021  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/15/2022 23:48:14"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Exp2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Exp2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clear;
+reg clock;
+reg ent;
+reg in;
+reg out;
+reg T;
+// wires                                               
+wire Close;
+wire Open;
+wire Out0;
+wire Out1;
+wire Out2;
+wire Out3;
+
+// assign statements (if any)                          
+Exp2 i1 (
+// port map - connection between master ports and signals/registers   
+	.clear(clear),
+	.clock(clock),
+	.Close(Close),
+	.ent(ent),
+	.in(in),
+	.Open(Open),
+	.out(out),
+	.Out0(Out0),
+	.Out1(Out1),
+	.Out2(Out2),
+	.Out3(Out3),
+	.T(T)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// T
+initial
+begin
+	T = 1'b0;
+	T = #10000 1'b1;
+	T = #30000 1'b0;
+	T = #10000 1'b1;
+	T = #140000 1'b0;
+end 
+
+// in
+initial
+begin
+	in = 1'b0;
+	in = #10000 1'b1;
+	in = #30000 1'b0;
+	in = #10000 1'b1;
+	in = #140000 1'b0;
+end 
+
+// ent
+initial
+begin
+	ent = 1'b0;
+	ent = #10000 1'b1;
+	ent = #30000 1'b0;
+	ent = #10000 1'b1;
+	ent = #140000 1'b0;
+end 
+
+// out
+initial
+begin
+	out = 1'b0;
+	out = #30000 1'b1;
+	out = #10000 1'b0;
+end 
+
+// clear
+initial
+begin
+	clear = 1'b0;
+end 
+
+// clock
+always
+begin
+	clock = 1'b0;
+	clock = #5000 1'b1;
+	#5000;
+end 
+endmodule
+

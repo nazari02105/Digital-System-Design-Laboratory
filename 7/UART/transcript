@@ -1,0 +1,65 @@
+# Compile of UART.v was successful.
+# Compile of baude_rate_generator.v was successful.
+# Compile of TB.v was successful.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 10:51:13 on May 10,2022
+# Loading work.TB
+# Loading work.UART
+# Loading work.baude_rate_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uart1'.  Expected 10, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/uart1 File: D:/Semester 4/DSD Lab/7/UART/TB.v Line: 21
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'rx_data_in'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'rx_data_out'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'ready'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'error'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uart2'.  Expected 10, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/uart2 File: D:/Semester 4/DSD Lab/7/UART/TB.v Line: 36
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'send'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'tx_data_in'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'tx_data_out'.
+add wave -position insertpoint sim:/TB/uart1/*
+add wave -position insertpoint sim:/TB/uart2/*
+run
+run
+# time =    826 ns -> rx_data_out = 1001000 (H) , parity error = 0
+vsim -gui work.TB
+# End time: 10:52:05 on May 10,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 16
+# vsim -gui work.TB 
+# Start time: 10:52:05 on May 10,2022
+# Loading work.TB
+# Loading work.UART
+# Loading work.baude_rate_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uart1'.  Expected 10, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/uart1 File: D:/Semester 4/DSD Lab/7/UART/TB.v Line: 21
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'rx_data_in'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'rx_data_out'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'ready'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(21): [TFMPC] - Missing connection for port 'error'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uart2'.  Expected 10, found 7.
+#    Time: 0 ns  Iteration: 0  Instance: /TB/uart2 File: D:/Semester 4/DSD Lab/7/UART/TB.v Line: 36
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'send'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'tx_data_in'.
+# ** Warning: (vsim-3722) D:/Semester 4/DSD Lab/7/UART/TB.v(36): [TFMPC] - Missing connection for port 'tx_data_out'.
+add wave -position insertpoint sim:/TB/uart1/*
+add wave -position insertpoint sim:/TB/uart2/*
+run
+# time =    826 ns -> rx_data_out = 1001000 (H) , parity error = 0
+# time =   1526 ns -> rx_data_out = 1100101 (e) , parity error = 0
+# time =   2226 ns -> rx_data_out = 1101100 (l) , parity error = 0
+# time =   2926 ns -> rx_data_out = 1101100 (l) , parity error = 0
+# time =   3626 ns -> rx_data_out = 1101111 (o) , parity error = 0
+# time =   4326 ns -> rx_data_out = 0101100 (,) , parity error = 0
+# time =   5026 ns -> rx_data_out = 0100000 ( ) , parity error = 0
+# time =   5726 ns -> rx_data_out = 1010111 (W) , parity error = 0
+# time =   6426 ns -> rx_data_out = 1101111 (o) , parity error = 0
+# time =   7126 ns -> rx_data_out = 1110010 (r) , parity error = 0
+# time =   7826 ns -> rx_data_out = 1101100 (l) , parity error = 0
+# time =   8526 ns -> rx_data_out = 1100100 (d) , parity error = 0
+# time =   9226 ns -> rx_data_out = 0100001 (!) , parity error = 0
+# ** Note: $stop    : D:/Semester 4/DSD Lab/7/UART/TB.v(71)
+#    Time: 9240 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at D:/Semester 4/DSD Lab/7/UART/TB.v line 71
+# End time: 11:05:52 on May 10,2022, Elapsed time: 0:13:47
+# Errors: 0, Warnings: 10

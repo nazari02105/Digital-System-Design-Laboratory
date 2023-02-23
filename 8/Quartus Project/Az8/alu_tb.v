@@ -1,0 +1,16 @@
+`timescale 1ns/1ns
+module alu_tb;
+	reg reset, clk;
+	wire [3:0] imaginary_part;
+	wire [3:0] real_part;
+	wire ready;
+	alu cmp(reset, clk, real_part, imaginary_part, ready);
+	initial clk = 1;
+	always #5 clk = ~clk;
+	initial
+	begin
+		reset = 1;
+		#5;
+		reset = 0;
+	end
+endmodule

@@ -1,0 +1,33 @@
+# Compile of cpu.v was successful.
+# Compile of cpu_test.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of instruction_memory.v was successful.
+# Compile of io.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.CPU_Test
+# vsim -gui work.CPU_Test 
+# Start time: 23:29:21 on Jun 02,2022
+# Loading work.CPU_Test
+# Loading work.CPU
+# Loading work.InstructionMemory
+# Loading work.DataMemory
+# Loading work.IO
+run -all
+# INVALID INSTRUCTION xxxxxxxxxxxx
+# for input X =   36 -> output Y =  106 (error = 0)
+# ** Note: $finish    : D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v(36)
+#    Time: 160 ps  Iteration: 0  Instance: /CPU_Test
+# 1
+# Break in Module CPU_Test at D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v line 36
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/CPU_Test/*
+run -all
+# INVALID INSTRUCTION xxxxxxxxxxxx
+# for input X =   36 -> output Y =  106 (error = 0)
+# ** Note: $finish    : D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v(36)
+#    Time: 160 ps  Iteration: 0  Instance: /CPU_Test
+# 1
+# Break in Module CPU_Test at D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v line 36
+# End time: 23:30:38 on Jun 02,2022, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 1

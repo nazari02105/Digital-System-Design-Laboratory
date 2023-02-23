@@ -1,0 +1,47 @@
+{D:/University/Az DSD/Experiments/3/modelsim/one_bit_comparator.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/one_bit_comparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_bit_comparator
+
+Top level modules:
+	one_bit_comparator
+
+} {} {}} {D:/University/Az DSD/Experiments/3/modelsim/four_bit_comparator_test.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/four_bit_comparator_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_bit_comparator
+-- Compiling module four_bit_comparator
+-- Compiling module four_bit_comparator_test
+
+Top level modules:
+	four_bit_comparator_test
+
+} {} {}} {D:/University/Az DSD/Experiments/3/modelsim/sequential_comparator_test.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/sequential_comparator_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequential_comparator
+-- Compiling module sequential_comparator_test
+
+Top level modules:
+	sequential_comparator_test
+
+} {} {}} {D:/University/Az DSD/Experiments/3/modelsim/four_bit_comparator.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/four_bit_comparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_bit_comparator
+-- Compiling module four_bit_comparator
+
+Top level modules:
+	four_bit_comparator
+
+} {} {}} {D:/University/Az DSD/Experiments/3/modelsim/sequential_comparator.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/sequential_comparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequential_comparator
+
+Top level modules:
+	sequential_comparator
+
+} {} {}} {D:/University/Az DSD/Experiments/3/modelsim/one_bit_comparator_test.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/3/modelsim/one_bit_comparator_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module one_bit_comparator_test
+
+Top level modules:
+	one_bit_comparator_test
+
+} {} {}}

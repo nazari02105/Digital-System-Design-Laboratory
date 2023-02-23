@@ -1,0 +1,259 @@
+|DivisibilityBy11
+IsDivisibleBy11 <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+Input0 => Adder5Bit:inst.A0
+Input1 => Adder5Bit:inst.A1
+Input2 => Adder5Bit:inst.A2
+Input3 => Adder5Bit:inst.A3
+Input8 => Adder5Bit:inst.B0
+Input9 => Adder5Bit:inst.B1
+Input10 => Adder5Bit:inst.B2
+Input11 => Adder5Bit:inst.B3
+Input4 => Adder5Bit:inst1.A0
+Input5 => Adder5Bit:inst1.A1
+Input6 => Adder5Bit:inst1.A2
+Input7 => Adder5Bit:inst1.A3
+Input12 => Adder5Bit:inst1.B0
+Input13 => Adder5Bit:inst1.B1
+Input14 => Adder5Bit:inst1.B2
+Input15 => Adder5Bit:inst1.B3
+
+
+|DivisibilityBy11|Adder6Bit:inst2
+Sum0 <= adder:inst.sum
+A0 => adder:inst.a
+B0 => adder:inst.b
+C_in => adder:inst.c_in
+Sum1 <= adder:inst1.sum
+A1 => adder:inst1.a
+B1 => adder:inst1.b
+Sum2 <= adder:inst2.sum
+A2 => adder:inst2.a
+B2 => adder:inst2.b
+Sum3 <= adder:inst3.sum
+A3 => adder:inst3.a
+B3 => adder:inst3.b
+Sum4 <= adder:inst4.sum
+A4 => adder:inst4.a
+B4 => adder:inst4.b
+Sum5 <= adder:inst5.sum
+A5 => adder:inst5.a
+B5 => adder:inst5.b
+C_out <= adder:inst5.c_out
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst1
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst2
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst3
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst4
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder6Bit:inst2|adder:inst5
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst
+Sum0 <= adder:inst.sum
+A0 => adder:inst.a
+B0 => adder:inst.b
+C_in => adder:inst.c_in
+Sum1 <= adder:inst1.sum
+A1 => adder:inst1.a
+B1 => adder:inst1.b
+Sum2 <= adder:inst2.sum
+A2 => adder:inst2.a
+B2 => adder:inst2.b
+Sum3 <= adder:inst3.sum
+A3 => adder:inst3.a
+B3 => adder:inst3.b
+Sum4 <= adder:inst4.sum
+A4 => adder:inst4.a
+B4 => adder:inst4.b
+C_out <= adder:inst4.c_out
+
+
+|DivisibilityBy11|Adder5Bit:inst|adder:inst
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst|adder:inst1
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst|adder:inst2
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst|adder:inst3
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst|adder:inst4
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst1
+Sum0 <= adder:inst.sum
+A0 => adder:inst.a
+B0 => adder:inst.b
+C_in => adder:inst.c_in
+Sum1 <= adder:inst1.sum
+A1 => adder:inst1.a
+B1 => adder:inst1.b
+Sum2 <= adder:inst2.sum
+A2 => adder:inst2.a
+B2 => adder:inst2.b
+Sum3 <= adder:inst3.sum
+A3 => adder:inst3.a
+B3 => adder:inst3.b
+Sum4 <= adder:inst4.sum
+A4 => adder:inst4.a
+B4 => adder:inst4.b
+C_out <= adder:inst4.c_out
+
+
+|DivisibilityBy11|Adder5Bit:inst1|adder:inst
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst1|adder:inst1
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst1|adder:inst2
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst1|adder:inst3
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisibilityBy11|Adder5Bit:inst1|adder:inst4
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

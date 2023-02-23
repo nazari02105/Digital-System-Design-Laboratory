@@ -1,0 +1,43 @@
+{D:/University/Az DSD/Experiments/10/Modelsim/data_memory.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/10/Modelsim/data_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {D:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/10/Modelsim/instruction_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/10/Modelsim/cpu_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+-- Compiling module InstructionMemory
+-- Compiling module IO
+-- Compiling module CPU
+-- Compiling module CPU_Test
+
+Top level modules:
+	CPU_Test
+
+} {} {}} {D:/University/Az DSD/Experiments/10/Modelsim/io.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/10/Modelsim/io.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IO
+
+Top level modules:
+	IO
+
+} {} {}} {D:/University/Az DSD/Experiments/10/Modelsim/cpu.v} {1 {vlog -work work -stats=none {D:/University/Az DSD/Experiments/10/Modelsim/cpu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+-- Compiling module InstructionMemory
+-- Compiling module IO
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}}

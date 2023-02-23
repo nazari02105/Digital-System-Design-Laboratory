@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Erfan/Desktop/rahmati
+vbaude_rate_generator
+!s110 1652163621
+!i10b 1
+!s100 30]Q1GGAlFDaJY:GX?7I33
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG;U<kBUS3fRfkmBmChnjH1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Semester 4/DSD Lab/7/UART
+w1652163404
+8D:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v
+FD:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v
+!i122 1
+L0 2 22
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1652163621.000000
+!s107 D:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vTB
+!s110 1652163661
+!i10b 1
+!s100 P_eNQi7?;nz4VhI<8dFNQ1
+R0
+I^GBN:65ZFXF0Yij@R41VK3
+R1
+R2
+w1652162770
+8D:/Semester 4/DSD Lab/7/UART/TB.v
+FD:/Semester 4/DSD Lab/7/UART/TB.v
+!i122 2
+L0 2 78
+R3
+r1
+!s85 0
+31
+!s108 1652163661.000000
+!s107 D:/Semester 4/DSD Lab/7/UART/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Semester 4/DSD Lab/7/UART/TB.v|
+!i113 1
+R4
+R5
+n@t@b
+vUART
+!s110 1652163616
+!i10b 1
+!s100 znO;_MZg[Q3HHehd=54:L3
+R0
+ILlB=2jNZ97TYSfRFE4zTB2
+R1
+R2
+w1652163395
+8D:/Semester 4/DSD Lab/7/UART/UART.v
+FD:/Semester 4/DSD Lab/7/UART/UART.v
+!i122 0
+L0 2 124
+R3
+r1
+!s85 0
+31
+!s108 1652163616.000000
+!s107 D:/Semester 4/DSD Lab/7/UART/UART.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Semester 4/DSD Lab/7/UART/UART.v|
+!i113 1
+R4
+R5
+n@u@a@r@t

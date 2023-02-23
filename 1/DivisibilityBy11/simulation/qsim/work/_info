@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/DSD_LAB_1/DivisibilityBy11/simulation/qsim
+vDivisibilityBy11
+Z1 !s110 1646574315
+!i10b 1
+!s100 50I>Zfl_P8Ti1AB;Ci:8:1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB2R<JII6l@3dFnjiUEb6^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1646574314
+8DivisibilityBy11.vo
+FDivisibilityBy11.vo
+!i122 8
+L0 32 677
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1646574315.000000
+!s107 DivisibilityBy11.vo|
+!s90 -work|work|DivisibilityBy11.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@divisibility@by11
+vDivisibilityBy11_vlg_vec_tst
+R1
+!i10b 1
+!s100 ed0fXg134>j]BnJk0TgCz3
+R2
+IL9ndgCaT[TiR675@T7TE93
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 9
+L0 30 179
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8
+n@divisibility@by11_vlg_vec_tst

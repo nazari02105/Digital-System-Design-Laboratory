@@ -1,0 +1,24 @@
+`timescale 1ns/1ns
+module data_path(input clk, input [7:0] in1_in, input [7:0] in2_in, output reg [7:0] in1, output reg [7:0] in2, input load, input sum_or_diff, input shift, input [3:0] shmnt);
+	reg [7:0] M;
+	reg LSB;
+	always @(posedge clk)
+	begin
+		if (load)
+		begin
+			 M <= in1_in;
+			 in1 <= 0;
+			 in2 <= in2_in;
+			 LSB <= 0;
+		end
+		else if (sum_or_diff)
+		begin
+			if (in2[0] == 1 && LSB == 0)
+				in1 <= in1 - M;
+			else if (in2[0] == 0 && LSB == 1)
+				in1 <= in1 + M;
+		end
+		else if (shift)
+			{in1, in2, LSB} <= $signed({in1, in2, LSB}) >>> shmnt;
+	end
+endmodule

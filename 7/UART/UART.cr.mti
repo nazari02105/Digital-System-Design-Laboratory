@@ -1,0 +1,22 @@
+{D:/Semester 4/DSD Lab/7/UART/TB.v} {1 {vlog -work work -stats=none {D:/Semester 4/DSD Lab/7/UART/TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {D:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v} {1 {vlog -work work -stats=none {D:/Semester 4/DSD Lab/7/UART/baude_rate_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module baude_rate_generator
+
+Top level modules:
+	baude_rate_generator
+
+} {} {}} {D:/Semester 4/DSD Lab/7/UART/UART.v} {1 {vlog -work work -stats=none {D:/Semester 4/DSD Lab/7/UART/UART.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}}

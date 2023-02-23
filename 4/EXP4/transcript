@@ -1,0 +1,19 @@
+# Compile of Stack.v was successful.
+# Compile of Stack_TB.v was successful.
+vsim -gui work.Stack_TB
+# vsim -gui work.Stack_TB 
+# Start time: 13:25:40 on Apr 12,2022
+# Loading work.Stack_TB
+# Loading work.stack
+add wave -position insertpoint sim:/Stack_TB/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Erfan  Hostname: LAPTOP-RH78DJK4  ProcessID: 5176
+#           Attempting to use alternate WLF file "./wlftz9ycnd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz9ycnd
+run
+# ** Note: $stop    : G:/University/Semester 4/DSD Lab/4/EXP4/Stack_TB.v(98)
+#    Time: 240 ps  Iteration: 0  Instance: /Stack_TB
+# Break in Module Stack_TB at G:/University/Semester 4/DSD Lab/4/EXP4/Stack_TB.v line 98
+# End time: 13:26:35 on Apr 12,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 5

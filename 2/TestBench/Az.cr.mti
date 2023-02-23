@@ -1,0 +1,43 @@
+{D:/Codes/Verilog Modelsim/Az/Exp2.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/Exp2.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Exp2
+
+Top level modules:
+	Exp2
+
+} {} {}} {D:/Codes/Verilog Modelsim/Az/Test.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/Test.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Test
+
+Top level modules:
+	Test
+
+} {} {}} {D:/Codes/Verilog Modelsim/Az/Counter.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/Counter.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {D:/Codes/Verilog Modelsim/Az/UpDFF.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/UpDFF.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module UpDFF
+
+Top level modules:
+	UpDFF
+
+} {} {}} {D:/Codes/Verilog Modelsim/Az/MainTFF.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/MainTFF.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MainTFF
+
+Top level modules:
+	MainTFF
+
+} {} {}} {D:/Codes/Verilog Modelsim/Az/NoEdgeDFF.v} {1 {vlog -work work -vopt -stats=none {D:/Codes/Verilog Modelsim/Az/NoEdgeDFF.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module NoEdgeDFF
+
+Top level modules:
+	NoEdgeDFF
+
+} {} {}}

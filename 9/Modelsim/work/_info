@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/DSD/Assignments/5/Modelsim
+vTCAM
+Z0 !s110 1653386373
+!i10b 1
+!s100 Bg1OFnS=kXG]]l:V32kKA3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;7ITeYN=>OTXKEKzGM2OD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/Az DSD/Experiments/9/Modelsim
+w1653386246
+8TCAM.v
+FTCAM.v
+!i122 8
+L0 1 57
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1653386372.000000
+!s107 TCAM.v|D:/University/Az DSD/Experiments/9/Modelsim/test.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:/University/Az DSD/Experiments/9/Modelsim/test.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@t@c@a@m
+vTest
+R0
+!i10b 1
+!s100 `hVcX5EbY:[37UaTe649L3
+R1
+I8a1W_Y_Flm_[Z5kK[dg[O2
+R2
+R3
+w1653386309
+8D:/University/Az DSD/Experiments/9/Modelsim/test.v
+FD:/University/Az DSD/Experiments/9/Modelsim/test.v
+!i122 8
+L0 2 46
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 TCAM.v|D:/University/Az DSD/Experiments/9/Modelsim/test.v|
+R6
+!i113 1
+R7
+R8
+n@test

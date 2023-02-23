@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/dsd/modelsim
+vIncubator
+Z0 !s110 1650870920
+!i10b 1
+!s100 Wb5@6]7>NLU31kOlo=nUJ2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAK=>bFnCR2j5XIAHl8d1^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/az/modelsim
+w1650728327
+8incubator.v
+Fincubator.v
+!i122 34
+L0 1 68
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1650870920.000000
+!s107 incubator.v|D:/az/modelsim/incubator_test.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:/az/modelsim/incubator_test.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@incubator
+vIncubatorTest
+R0
+!i10b 1
+!s100 6ZLM:92Y@OmY@LJ9j:jan2
+R1
+IZ3XfIe5jd;oVaJgQaV>i?1
+R2
+R3
+w1650870908
+8D:/az/modelsim/incubator_test.v
+FD:/az/modelsim/incubator_test.v
+!i122 34
+L0 2 36
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 incubator.v|D:/az/modelsim/incubator_test.v|
+R6
+!i113 1
+R7
+R8
+n@incubator@test

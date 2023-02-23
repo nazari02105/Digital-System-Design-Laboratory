@@ -1,0 +1,200 @@
+// Copyright (C) 2021  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/05/2022 17:33:51"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          DivisibilityBy3
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module DivisibilityBy3_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Input0;
+reg Input1;
+reg Input2;
+reg Input3;
+reg Input4;
+reg Input5;
+reg Input6;
+reg Input7;
+reg Input8;
+reg Input9;
+reg Input10;
+reg Input11;
+reg Input12;
+reg Input13;
+reg Input14;
+reg Input15;
+// wires                                               
+wire Is_Divisable_By_3;
+
+// assign statements (if any)                          
+DivisibilityBy3 i1 (
+// port map - connection between master ports and signals/registers   
+	.Input0(Input0),
+	.Input1(Input1),
+	.Input2(Input2),
+	.Input3(Input3),
+	.Input4(Input4),
+	.Input5(Input5),
+	.Input6(Input6),
+	.Input7(Input7),
+	.Input8(Input8),
+	.Input9(Input9),
+	.Input10(Input10),
+	.Input11(Input11),
+	.Input12(Input12),
+	.Input13(Input13),
+	.Input14(Input14),
+	.Input15(Input15),
+	.Is_Divisable_By_3(Is_Divisable_By_3)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// Input0
+initial
+begin
+	Input0 = 1'b1;
+	Input0 = #10000 1'b0;
+	Input0 = #10000 1'b1;
+	Input0 = #10000 1'b0;
+	Input0 = #10000 1'b1;
+	Input0 = #10000 1'b0;
+end 
+
+// Input1
+initial
+begin
+	Input1 = 1'b1;
+	Input1 = #10000 1'b0;
+end 
+
+// Input2
+initial
+begin
+	Input2 = 1'b0;
+end 
+
+// Input3
+initial
+begin
+	Input3 = 1'b0;
+end 
+
+// Input4
+initial
+begin
+	Input4 = 1'b1;
+	Input4 = #10000 1'b0;
+	Input4 = #10000 1'b1;
+	Input4 = #10000 1'b0;
+end 
+
+// Input5
+initial
+begin
+	Input5 = 1'b1;
+	Input5 = #10000 1'b0;
+	Input5 = #30000 1'b1;
+	Input5 = #10000 1'b0;
+end 
+
+// Input6
+initial
+begin
+	Input6 = 1'b0;
+end 
+
+// Input7
+initial
+begin
+	Input7 = 1'b0;
+end 
+
+// Input8
+initial
+begin
+	Input8 = 1'b1;
+	Input8 = #10000 1'b0;
+	Input8 = #10000 1'b1;
+	Input8 = #10000 1'b0;
+	Input8 = #10000 1'b1;
+	Input8 = #10000 1'b0;
+end 
+
+// Input9
+initial
+begin
+	Input9 = 1'b1;
+	Input9 = #10000 1'b0;
+	Input9 = #30000 1'b1;
+	Input9 = #10000 1'b0;
+end 
+
+// Input10
+initial
+begin
+	Input10 = 1'b0;
+end 
+
+// Input11
+initial
+begin
+	Input11 = 1'b0;
+end 
+
+// Input12
+initial
+begin
+	Input12 = 1'b1;
+	Input12 = #10000 1'b0;
+	Input12 = #10000 1'b1;
+	Input12 = #10000 1'b0;
+end 
+
+// Input13
+initial
+begin
+	Input13 = 1'b1;
+	Input13 = #10000 1'b0;
+end 
+
+// Input14
+initial
+begin
+	Input14 = 1'b0;
+	Input14 = #60000 1'b1;
+	Input14 = #10000 1'b0;
+end 
+
+// Input15
+initial
+begin
+	Input15 = 1'b0;
+end 
+endmodule
+

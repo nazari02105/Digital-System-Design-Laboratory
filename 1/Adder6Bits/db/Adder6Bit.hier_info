@@ -1,0 +1,89 @@
+|Adder6Bit
+Sum0 <= adder:inst.sum
+A0 => adder:inst.a
+B0 => adder:inst.b
+C_in => adder:inst.c_in
+Sum1 <= adder:inst1.sum
+A1 => adder:inst1.a
+B1 => adder:inst1.b
+Sum2 <= adder:inst2.sum
+A2 => adder:inst2.a
+B2 => adder:inst2.b
+Sum3 <= adder:inst3.sum
+A3 => adder:inst3.a
+B3 => adder:inst3.b
+Sum4 <= adder:inst4.sum
+A4 => adder:inst4.a
+B4 => adder:inst4.b
+Sum5 <= adder:inst5.sum
+A5 => adder:inst5.a
+B5 => adder:inst5.b
+C_out <= adder:inst5.c_out
+
+
+|Adder6Bit|adder:inst
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder6Bit|adder:inst1
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder6Bit|adder:inst2
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder6Bit|adder:inst3
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder6Bit|adder:inst4
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder6Bit|adder:inst5
+c_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst2.IN0
+a => inst1.IN0
+b => inst2.IN1
+b => inst1.IN1
+c_in => inst3.IN1
+c_in => inst.IN1
+sum <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

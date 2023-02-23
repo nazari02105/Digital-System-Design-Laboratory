@@ -1,0 +1,43 @@
+# Compile of incubator.v was successful.
+# Compile of incubator_test.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of incubator.v was successful.
+# Compile of incubator_test.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of incubator.v was successful.
+# Compile of incubator_test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.IncubatorTest
+# vsim -gui work.IncubatorTest 
+# Start time: 11:07:42 on Apr 25,2022
+# Loading work.IncubatorTest
+# Loading work.Incubator
+run -all
+# ** Note: $stop    : D:/az/modelsim/incubator_test.v(35)
+#    Time: 770 ps  Iteration: 0  Instance: /IncubatorTest
+# Break in Module IncubatorTest at D:/az/modelsim/incubator_test.v line 35
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/IncubatorTest/*
+run -all
+# ** Note: $stop    : D:/az/modelsim/incubator_test.v(35)
+#    Time: 770 ps  Iteration: 0  Instance: /IncubatorTest
+# Break in Module IncubatorTest at D:/az/modelsim/incubator_test.v line 35
+quit -sim
+# End time: 11:44:51 on Apr 25,2022, Elapsed time: 0:37:09
+# Errors: 0, Warnings: 1
+# Compile of incubator.v was successful.
+# Compile of incubator_test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.IncubatorTest
+# vsim -gui work.IncubatorTest 
+# Start time: 11:45:24 on Apr 25,2022
+# Loading work.IncubatorTest
+# Loading work.Incubator
+add wave -position insertpoint sim:/IncubatorTest/*
+run -all
+# ** Note: $stop    : D:/az/modelsim/incubator_test.v(35)
+#    Time: 910 ps  Iteration: 0  Instance: /IncubatorTest
+# Break in Module IncubatorTest at D:/az/modelsim/incubator_test.v line 35
+# End time: 11:56:33 on Apr 25,2022, Elapsed time: 0:11:09
+# Errors: 0, Warnings: 2
