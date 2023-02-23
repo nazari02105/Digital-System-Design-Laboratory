@@ -1,0 +1,19 @@
+module Counter_Test;
+	reg clk; reg reset;
+	wire[4:0] q;
+	Counter counter0(q, clk, reset);
+	initial
+		clk=0;
+	always 
+		#1 clk=~clk;
+	initial begin
+		reset = 1;
+		// I assume every clock is about 2 ns
+		#2 reset = 0;
+		#66 reset = 1;
+		#2 reset = 0;
+		#30 reset = 1;
+		#2 reset = 0;
+		#20 $stop;
+	end
+endmodule

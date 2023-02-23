@@ -1,0 +1,184 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modelsim/old/installed/examples
+T_opt
+!s110 1647171102
+VQfie:`nVOOaVMiJzN2@nd1
+04 7 4 work JK_Test fast 0
+=1-086266b94fb7-622dd61e-196-1628
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1647176007
+VM0BUS8_l42zEL^GH;>34U1
+04 12 4 work Counter_Test fast 0
+=1-086266b94fb7-622de947-225-248c
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1647173600
+V1;`L<:lT9OUMRTOR=?QEB0
+04 8 4 work TFF_Test fast 0
+=1-086266b94fb7-622ddfe0-218-19ec
+R1
+R2
+n@_opt2
+R3
+R0
+vCounter
+Z4 !s110 1647175998
+!i10b 1
+!s100 G5<][>ZkE9JCO2lYOY?LN1
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=3Pc[>3:NGIgD[T<RecEg0
+Z6 dD:/Codes/Verilog Modelsim/HW
+w1647175990
+8D:/Codes/Verilog Modelsim/HW/Counter.v
+FD:/Codes/Verilog Modelsim/HW/Counter.v
+!i122 51
+L0 1 9
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1647175998.000000
+!s107 D:/Codes/Verilog Modelsim/HW/Counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/Counter.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@counter
+vCounter_Test
+R4
+!i10b 1
+!s100 nMB4izbPn9Kkg8W5TE>c@0
+R5
+Ia6;IAPTblQi5b3C06>DWL1
+R6
+w1647175739
+8D:/Codes/Verilog Modelsim/HW/Counter_Test.v
+FD:/Codes/Verilog Modelsim/HW/Counter_Test.v
+!i122 54
+L0 1 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Codes/Verilog Modelsim/HW/Counter_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/Counter_Test.v|
+!i113 0
+R10
+R2
+n@counter_@test
+vJK
+Z11 !s110 1647175997
+!i10b 1
+!s100 dc@hPB^XaS_z3RgW1Za603
+R5
+IT35So@1H1YlN_2kb8jYVD2
+R6
+w1647172804
+8D:/Codes/Verilog Modelsim/HW/JK.v
+FD:/Codes/Verilog Modelsim/HW/JK.v
+!i122 49
+L0 1 21
+R7
+R8
+r1
+!s85 0
+31
+Z12 !s108 1647175997.000000
+!s107 D:/Codes/Verilog Modelsim/HW/JK.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/JK.v|
+!i113 0
+R10
+R2
+n@j@k
+vJK_Test
+R4
+!i10b 1
+!s100 <]X<B^^GdPncgik^[=Ue61
+R5
+I5c1>b_[NkmK5YgzL[51<]1
+R6
+w1647171874
+8D:/Codes/Verilog Modelsim/HW/JK_Test.v
+FD:/Codes/Verilog Modelsim/HW/JK_Test.v
+!i122 52
+L0 1 31
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Codes/Verilog Modelsim/HW/JK_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/JK_Test.v|
+!i113 0
+R10
+R2
+n@j@k_@test
+vTFF
+R11
+!i10b 1
+!s100 MEc]Sg]=if^adU7MAg^b73
+R5
+ImLk=DRGnPCoXdSRYH3@MC3
+R6
+w1647173285
+8D:/Codes/Verilog Modelsim/HW/TFF.v
+FD:/Codes/Verilog Modelsim/HW/TFF.v
+!i122 50
+L0 1 5
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 D:/Codes/Verilog Modelsim/HW/TFF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/TFF.v|
+!i113 0
+R10
+R2
+n@t@f@f
+vTFF_Test
+R4
+!i10b 1
+!s100 B:lFz?R`ZJ1VWIFTRBmL31
+R5
+I38kE0l]6Z<YG48ggio1:10
+R6
+w1647173569
+8D:/Codes/Verilog Modelsim/HW/TFF_Test.v
+FD:/Codes/Verilog Modelsim/HW/TFF_Test.v
+!i122 53
+L0 2 28
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Codes/Verilog Modelsim/HW/TFF_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Codes/Verilog Modelsim/HW/TFF_Test.v|
+!i113 0
+R10
+R2
+n@t@f@f_@test

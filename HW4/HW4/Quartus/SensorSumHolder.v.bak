@@ -1,0 +1,16 @@
+`include "dff.v"
+
+module SensorSumHolder #(parameter WIDTH = 16) (
+    input wire clk,
+    input wire reset,
+    input wire enable, // if enable is zero nothing will be changed
+    input wire sub_sum_not, // if 0 out will be in + out otherwise out = out - in
+    input wire signed [WIDTH-1:0] in,
+    output wire signed [WIDTH-1:0] out
+);
+    // Create a dff
+    DFF #(.WIDTH(WIDTH)) dff(clk, reset, dff_input, out);
+
+    // Create the input
+    wire signed [WIDTH-1:0] dff_input = enable ? (sub_sum_not ? out + in : out - in) : out;
+endmodule

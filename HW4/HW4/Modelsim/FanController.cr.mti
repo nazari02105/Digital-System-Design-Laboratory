@@ -1,0 +1,129 @@
+D:/Uni/dsd/Last/Modelsim/Divider.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Divider
+
+Top level modules:
+	Divider
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/dff.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/dff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/ControlUnit.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/ControlUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/FanController.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/FanController.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+-- Compiling module CounterWithMod
+-- Compiling module DFFWithLoad
+-- Compiling module SensorSumHolder
+-- Compiling module Mux8To1
+-- Compiling module Abs
+-- Compiling module BetweenChecker
+-- Compiling module FanStatusResultFinder
+-- Compiling module Datapath
+-- Compiling module ControlUnit
+-- Compiling module FanController
+
+Top level modules:
+	FanController
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/Abs.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Abs.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Abs
+
+Top level modules:
+	Abs
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/Mux8To1.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Mux8To1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux8To1
+
+Top level modules:
+	Mux8To1
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/Datapath.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CounterWithMod
+-- Compiling module DFFWithLoad
+-- Compiling module SensorSumHolder
+-- Compiling module Mux8To1
+-- Compiling module Abs
+-- Compiling module BetweenChecker
+-- Compiling module FanStatusResultFinder
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/BetweenChecker.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/BetweenChecker.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BetweenChecker
+
+Top level modules:
+	BetweenChecker
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/dff_load.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/dff_load.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFFWithLoad
+
+Top level modules:
+	DFFWithLoad
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/Testbench.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+-- Compiling module CounterWithMod
+-- Compiling module DFFWithLoad
+-- Compiling module SensorSumHolder
+-- Compiling module Mux8To1
+-- Compiling module Abs
+-- Compiling module BetweenChecker
+-- Compiling module FanStatusResultFinder
+-- Compiling module Datapath
+-- Compiling module ControlUnit
+-- Compiling module FanController
+-- Compiling module FanControllerTest
+
+Top level modules:
+	FanControllerTest
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/Memory.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/FanStatusFinder.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/FanStatusFinder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Abs
+-- Compiling module BetweenChecker
+-- Compiling module FanStatusResultFinder
+
+Top level modules:
+	FanStatusResultFinder
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/CounterWithMod.v {1 {vlog -work work -stats=none D:/Uni/dsd/Last/Modelsim/CounterWithMod.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CounterWithMod
+
+Top level modules:
+	CounterWithMod
+
+} {} {}} D:/Uni/dsd/Last/Modelsim/SensorSumHolder.v {1 {vlog -work work -stats=none {D:\Uni\dsd\Last\Modelsim\SensorSumHolder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SensorSumHolder
+
+Top level modules:
+	SensorSumHolder
+
+} {} {}}
