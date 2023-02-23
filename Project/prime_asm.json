@@ -1,0 +1,56 @@
+{
+  "rectangle1": {
+    "id": 1,
+    "name": "start",
+    "start": true,
+    "next": 2
+  },
+  "oval1": {
+    "id": 2,
+    "next": 3,
+    "star": true,
+    "statements": [
+      "R1 = 15",
+      "result = 1",
+      "counter = 2"
+    ]
+  },
+  "diamond1": {
+    "id": 3,
+    "next_positive": 5,
+    "next_negative": 4,
+    "statements": "counter < R1"
+  },
+  "rectangle2": {
+    "id": 4,
+    "name": "finish",
+    "next": 2
+  },
+  "oval2": {
+    "id": 5,
+    "next": 6,
+    "statements": [
+      "rem = R1 % counter"
+    ]
+  },
+  "diamond2": {
+    "id": 6,
+    "next_positive": 7,
+    "next_negative": 8,
+    "statements": "rem == 0"
+  },
+  "oval3": {
+    "id": 7,
+    "next": 4,
+    "statements": [
+      "result = 0"
+    ]
+  },
+  "oval4": {
+    "id": 8,
+    "next": 3,
+    "statements": [
+      "counter = counter + 1"
+    ]
+  }
+}

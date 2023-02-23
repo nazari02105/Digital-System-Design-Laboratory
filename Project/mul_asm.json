@@ -1,0 +1,42 @@
+{
+  "rectangle1": {
+    "id": 1,
+    "name": "start",
+    "start": true,
+    "next": 2
+  },
+  "oval1": {
+    "id": 2,
+    "next": 3,
+    "star": true,
+    "statements": [
+      "R1 = 10",
+      "R2 = 4",
+      "result = 0"
+    ]
+  },
+  "diamond1": {
+    "id": 3,
+    "next_positive": 4,
+    "next_negative": 6,
+    "statements": "R2 > 0"
+  },
+  "rectangle2": {
+    "id": 4,
+    "name": "mul",
+    "next": 5
+  },
+  "oval2": {
+    "id": 5,
+    "next": 3,
+    "statements": [
+      "result = result + R1",
+      "R2 = R2 - 1"
+    ]
+  },
+  "rectangle3": {
+    "id": 6,
+    "name": "finish",
+    "next": 2
+  }
+}
